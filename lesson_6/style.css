@@ -8,6 +8,8 @@ body {
 .container {
     max-width: 1140px;
     margin: 0 auto;
+    display: flex;
+    flex-direction: column;
 }
 .header{
     display: flex;
@@ -26,9 +28,10 @@ body {
     background: linear-gradient(0deg, #EBF3FB 8.84%, rgba(152, 195, 232, 0) 31.12%);
 }
 .top_info {
-    display: flex;
-    flex-direction: column;
-    width: 50%;
+    padding-top: 107px;
+    width: 512px;
+    flex-grow: 1;
+    height: 100%;
 }
 .top_heading {
     font-weight: 300;
@@ -36,6 +39,24 @@ body {
     line-height: 74px;
     letter-spacing: 0.04em;
     color: #1F3F68;
+    margin-bottom: 32px;
       
+}
+.top_text {
+    width: 425px;
+}
+.top_button {
+    color: #FFFFFF;
+    text-align: center;
+    letter-spacing: 0.04em;
+    background: #5A98D0;
+    box-shadow: 5px 10px 20px rgba(53, 110, 173, 0.2);
+    border-radius: 10px;
+    padding: 15px 50px;
+    text-decoration: none;
+    display: inline-block;
+    margin-top: 71px;
+
+
 }
 
